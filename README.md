@@ -3,7 +3,6 @@ Write a short sentence or two about this project and what it does. Be sure to in
 
 **Link to project:** https://salgado3.github.io/devJaimePortfolio/
 
-![alt tag](https://salgado3.github.io/devJaimePortfolio/)
 
 ## How It's Made:
 
