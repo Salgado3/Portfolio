@@ -2148,8 +2148,16 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative;
 }
+#projectImg {
+  opacity: 0.85;
+}
 #projectImg:hover {
-  opacity: 0.725;
+  opacity: 1;
+  transition: linear;
+  -webkit-transform: scale(1.015);
+  -ms-transform: scale(1.015);
+  transform: scale(1.015);
+  transition-duration: 0.15s;
 }
 
 .image[data-position] img {
