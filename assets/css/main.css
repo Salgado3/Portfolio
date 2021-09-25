@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-/*
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html,
 body,
@@ -173,7 +168,13 @@ html {
 }
 
 body {
-  background: #8c7a77;
+  background: #51618F;
+}
+
+.banner{
+  max-width: 100%;
+  height: auto;
+
 }
 
 body.is-preload *,
@@ -2722,7 +2723,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #8c7a77;
+  background-color: #51618F;
   color: #ffffff !important;
 }
 
@@ -2805,7 +2806,7 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #8c7a77;
+  background: #51618F;
   color: #d2f2e9;
   height: 100%;
   overflow-y: auto;
@@ -2950,6 +2951,7 @@ input[type="button"]:disabled,
 #main > section:first-child {
   border-top: 0;
 }
+
 
 /* Footer */
 
@@ -3198,7 +3200,7 @@ input[type="button"]:disabled,
   }
 
   #titleBar .toggle:before {
-    background: #8c7a77;
+    background: #51618F;
     color: #ffffff;
     content: "\f0c9";
     display: block;
@@ -3340,6 +3342,7 @@ input[type="button"]:disabled,
   #main > section > .container {
     padding: 2em 0 0 0;
   }
+ 
 
   /* Footer */
 
@@ -3444,4 +3447,9 @@ input[type="button"]:disabled,
   .button {
     padding: 0;
   }
+}
+
+
+#one{
+  border-bottom: 5px solid red;
 }
