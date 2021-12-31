@@ -2151,15 +2151,35 @@ input[type="radio"] + label:before {
   object-fit: contain;
 }
 #projectImg {
-  opacity: 0.85;
+  opacity: 0.9;
+  color: black;
+  font-weight: 700;
+  font-size: 1.5rem;
+  transition: .25s linear;
 }
 #projectImg:hover {
   opacity: 1;
-  transition: linear;
   -webkit-transform: scale(1.015);
   -ms-transform: scale(1.015);
-  transform: scale(1.015);
-  transition-duration: 0.15s;
+  transform: scale(1.02);
+  /* transition-duration: 0.2s; */
+}
+/* project description paragraphs */
+article  p {
+  color: black;
+  text-align: justify;
+}
+.section_Titles {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.section_Titles_p, .welcome_p, .feature-icons {
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.welcome_p {
+  text-align: justify;
 }
 
 .image[data-position] img {
@@ -2906,7 +2926,7 @@ input[type="button"]:disabled,
 }
 
 #header > nav ul li {
-  border-top: solid 2px #5ccfb1;
+  border-top: solid 2px rgb(212, 205, 205);
   display: block;
   padding: 0;
 }
@@ -3453,5 +3473,5 @@ input[type="button"]:disabled,
 
 
 #one{
-  border-bottom: 5px solid red;
+  border-bottom: 4px solid red;
 }
