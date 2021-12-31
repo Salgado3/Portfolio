@@ -2155,14 +2155,13 @@ input[type="radio"] + label:before {
   color: black;
   font-weight: 700;
   font-size: 1.5rem;
-  transition: .25s linear;
 }
 #projectImg:hover {
   opacity: 1;
   -webkit-transform: scale(1.015);
   -ms-transform: scale(1.015);
   transform: scale(1.02);
-  /* transition-duration: 0.2s; */
+  transition-duration: 0.2s;
 }
 /* project description paragraphs */
 article  p {
