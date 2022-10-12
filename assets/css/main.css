@@ -1,7 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
-
 html,
 body,
 div,
@@ -168,13 +167,12 @@ html {
 }
 
 body {
-  background: #51618F;
+  background: #51618f;
 }
 
-.banner{
+.banner {
   max-width: 100%;
   height: auto;
-
 }
 
 body.is-preload *,
@@ -2164,7 +2162,7 @@ input[type="radio"] + label:before {
   transition-duration: 0.2s;
 }
 /* project description paragraphs */
-article  p {
+article p {
   color: black;
   text-align: justify;
 }
@@ -2173,9 +2171,11 @@ article  p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
-.section_Titles_p, .welcome_p, .feature-icons {
-color: black;
-font-family: Arial, Helvetica, sans-serif;
+.section_Titles_p,
+.welcome_p,
+.feature-icons {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .welcome_p {
   text-align: justify;
@@ -2743,7 +2743,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #51618F;
+  background-color: #51618f;
   color: #ffffff !important;
 }
 
@@ -2826,7 +2826,7 @@ input[type="button"]:disabled,
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #51618F;
+  background: #51618f;
   color: #d2f2e9;
   height: 100%;
   overflow-y: auto;
@@ -2971,7 +2971,6 @@ input[type="button"]:disabled,
 #main > section:first-child {
   border-top: 0;
 }
-
 
 /* Footer */
 
@@ -3221,7 +3220,7 @@ input[type="button"]:disabled,
   }
 
   #titleBar .toggle:before {
-    background: #51618F;
+    background: #51618f;
     color: #ffffff;
     content: "\f0c9";
     display: block;
@@ -3363,7 +3362,6 @@ input[type="button"]:disabled,
   #main > section > .container {
     padding: 2em 0 0 0;
   }
- 
 
   /* Footer */
 
@@ -3469,7 +3467,6 @@ input[type="button"]:disabled,
     padding: 0;
   }
 }
-
 
 #one {
   border-bottom: 4px solid red;
